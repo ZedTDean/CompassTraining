@@ -1,0 +1,6 @@
+# Gurobi Cluster Manager license file
+# Your credentials are private and should not be shared or copied to public repositories.
+CSMANAGER=https://demos-manager.gurobi.com
+CSAPIACCESSID=e41c4ff4-4322-4218-a52b-f82047083523
+CSAPISECRET=e62cc65e-2b26-4726-8a2a-2a2fe77157ec
+CSAPPNAME=Compass
