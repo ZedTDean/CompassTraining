@@ -55,6 +55,30 @@ Subject To
    + prod_ship[Cleveland,St._Louis] + prod_ship[Little_Rock,St._Louis]
    + prod_ship[Birmingham,St._Louis] + prod_ship[Charleston,St._Louis]
    >= 181
+ meet_demand[Columbia]: prod_ship[Baltimore,Columbia]
+   + prod_ship[Cleveland,Columbia] + prod_ship[Little_Rock,Columbia]
+   + prod_ship[Birmingham,Columbia] + prod_ship[Charleston,Columbia] >= 89
+ meet_demand[Indianapolis]: prod_ship[Baltimore,Indianapolis]
+   + prod_ship[Cleveland,Indianapolis]
+   + prod_ship[Little_Rock,Indianapolis]
+   + prod_ship[Birmingham,Indianapolis]
+   + prod_ship[Charleston,Indianapolis] >= 95
+ meet_demand[Lexington]: prod_ship[Baltimore,Lexington]
+   + prod_ship[Cleveland,Lexington] + prod_ship[Little_Rock,Lexington]
+   + prod_ship[Birmingham,Lexington] + prod_ship[Charleston,Lexington]
+   >= 121
+ meet_demand[Nashville]: prod_ship[Baltimore,Nashville]
+   + prod_ship[Cleveland,Nashville] + prod_ship[Little_Rock,Nashville]
+   + prod_ship[Birmingham,Nashville] + prod_ship[Charleston,Nashville]
+   >= 101
+ meet_demand[Richmond]: prod_ship[Baltimore,Richmond]
+   + prod_ship[Cleveland,Richmond] + prod_ship[Little_Rock,Richmond]
+   + prod_ship[Birmingham,Richmond] + prod_ship[Charleston,Richmond]
+   >= 116
+ meet_demand[St._Louis]: prod_ship[Baltimore,St._Louis]
+   + prod_ship[Cleveland,St._Louis] + prod_ship[Little_Rock,St._Louis]
+   + prod_ship[Birmingham,St._Louis] + prod_ship[Charleston,St._Louis]
+   >= 181
  can_produce[Baltimore]: prod_ship[Baltimore,Columbia]
    + prod_ship[Baltimore,Indianapolis] + prod_ship[Baltimore,Lexington]
    + prod_ship[Baltimore,Nashville] + prod_ship[Baltimore,Richmond]
